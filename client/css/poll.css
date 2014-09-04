@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%; }
+
+.row {
+  height: 100%;
+  max-width: 100%; }
+
+[class*="column"] + [class*="column"]:last-child {
+  float: none; }
+
+.poll-wrapper {
+  width: 100%; }
+
+a.button {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Kalam', cursive, 'sans-serif'; }
+
+a.hollysprings {
+  background-color: #008126; }
+
+a.hollysprings:hover {
+  background-color: #00b435; }
+
+a.morrisville {
+  background-color: #f57617; }
+
+a.morrisville:hover {
+  background-color: #f79348; }
+
+a.raleigh {
+  background-color: #701b54; }
+
+a.raleigh:hover {
+  background-color: #992573; }
+
+.buttonlabel span {
+  text-align: center; 
+}
+
+.columns {
+	  padding:0px !important;
+	  height: 100%;
+	  border-right: 1px solid #000;
+	  display: table;
+	  position:relative;
+}
+
+.checkmark {
+	width:200px;
+	height:200px;
+	background-image: url(img/checkbox.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	z-index:9999;
+	left:50%;
+}
