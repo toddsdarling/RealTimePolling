@@ -11,4 +11,4 @@ There's a simple admin screen built for the end user to switch between clients a
 
 This pulls everything into a common core codebase while maintaining certain custom functionality for the different clients.
 
-All development was done using Foundation for the front-end framework, a core library of API functions I developed, and PHP for the server-side code.  Also utilized Grunt and Bower for managing packages and building a final distribution (those files are not checked in here).
+All development was done using Foundation for the front-end framework, Backbone for the Javascript framework, a core library of API functions I developed and PHP for the server-side code.  Also utilized Grunt and Bower for managing packages and building a final distribution (those files are not checked in here).
