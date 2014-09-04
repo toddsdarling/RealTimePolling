@@ -1,0 +1,29 @@
+<div id="lookUp">
+
+	<h2>Search</h2>
+
+	<form id="lookUpForm" name="searchForm" method="post" action="#lookUp">
+
+		<p class="instructions" align="center">Please enter your name and date of birth below to search for your record. </p>
+
+		<p class="error">Please correct the fields marked in red</p>
+
+		<div class="row">
+			<div class="small-6 columns small-centered">
+				<input id="userFname" type="text" class="required input-small" name="fname" placeholder="First Name" value="<%= fname %>" />
+				<input id="userLname" type="text" class="required input-medium" name="lname" placeholder="Last Name" value="<%= lname %>" />
+			</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="small-6 columns small-centered">
+				<label for="userDobMonth">Date of Birth (mm/dd/yyyy):</label>		
+				<input name="dobMonth" id="userDobMonth" class="input-mini" size="2" maxlength="2" placeholder="MM" value="<%= dobmonth %>" /> / <input name="dobDay" maxlength="2" size="2" id="userDobDay" class="input-mini" placeholder="DD" value="<%= dobday %>"  /> / <input name="dobYear" maxlength="2" size="2" id="userDobYear" class="input-mini" placeholder="YY" value="<%= dobyear %>" />	
+				<a id="checkInBtn" class="button radius small" href="#"><strong>Search ></strong></a>			
+			</div>
+		</div>
+
+	</form>
+
+</div>

@@ -1,0 +1,16 @@
+/* --------- SCAN FORM ------------ */
+
+#scanForm form {
+	position:absolute;
+	left:-10000px;
+	top:0px;
+	outline:none;
+}
+
+a#scanForm-nobc {
+	background-color:#333;
+}
+
+a#scanForm-nobc:hover {
+	background-color:#999;
+}

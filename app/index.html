@@ -1,0 +1,60 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Check In</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css css/vendor.css -->
+        <link rel="stylesheet" href="bower_components/foundation/css/normalize.css">
+        <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+        <!-- endbuild --> 
+
+        <!-- build:css(.tmp) css/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/lookupform.css">
+        <link rel="stylesheet" href="styles/scanform.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <p>
+                <img id="siteLogo" src="img/logo.png">
+            </p>
+        </header>
+
+        <section id="content">            
+            <div id="contentPanel" class="panel">
+
+            </div>
+
+        </section>
+
+        <!-- build:js js/vendor.js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/backbone/backbone.js"></script>
+        <script src="bower_components/foundation/js/foundation.min.js"></script>        
+        <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) js/main.js -->
+        <script src="scripts/configManager.js"></script>
+        <script src="scripts/router.js"></script>
+        <script src="scripts/views.js"></script>                
+        <script src="scripts/main.js"></script> 
+        <script src="scripts/utils.js"></script>        
+        <!-- endbuild -->
+</body>
+</html>

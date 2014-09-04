@@ -1,0 +1,43 @@
+/* ------------ LOOKUP FORM -------------- */
+#lookUp {
+	display:none;
+}
+
+#lookUp h2 {
+	margin-bottom:10px;
+}
+
+
+#lookUpForm input#userDobMonth, #lookUpForm input#userDobDay, #lookUpForm input#userDobYear  {
+	width:55px;
+	display:inline-block;
+}
+
+a#checkInBtn {
+	margin-left:18px;
+	background-color:rgba(147, 195, 75,.8);
+}
+
+a#checkInBtn:hover {
+	background-color:#333;
+}
+
+p.error {
+	text-align: center;
+	margin: 3px;
+	font-weight: 700;
+	color: red;
+	display:none;
+}
+
+a#tryAgainBtn {
+	margin-right:60px;
+}
+
+a#tryAgainBtn, a#ImNewBtn {
+	background-color:rgba(214, 81, 38, .5);
+}
+
+a#tryAgainBtn:hover, a#ImNewBtn:hover {
+	background-color:#666;
+};
